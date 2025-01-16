@@ -8,5 +8,3 @@ pluginManagement {
         maven("https://plugins.gradle.org/m2/")
     }
 }
-
-rootProject.name = "${extra["PROJECT_NAME"]}"

@@ -8,14 +8,14 @@ plugins {
     id("com.github.johnrengelman.shadow")
 }
 
-group = "${properties["PROJECT_GROUP"]}"
-version = "${properties["PROJECT_VERSION"]}"
+group = "io.gitlab.lone64.template"
+version = "1.0.0"
 
 repositories {
     mavenCentral()
     maven("https://jitpack.io")
     maven("https://libraries.minecraft.net/")
-    maven("https://repo.repsy.io/mvn/lone64/releases/")
+    maven("https://maven.lone64.dev/releases/")
     maven("https://repo.codemc.io/repository/maven-snapshots/")
     maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
 }
@@ -31,7 +31,7 @@ dependencies {
 
 tasks {
     shadowJar {
-        archiveFileName.set("${project.name}-${project.version}-release.jar")
+        archiveFileName.set("template-${project.version}.jar")
     }
 
     withType<ProcessResources> {
