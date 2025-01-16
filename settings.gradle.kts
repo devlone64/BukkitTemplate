@@ -1,6 +1,5 @@
 pluginManagement {
     plugins {
-        id("xyz.jpenilla.run-paper").version("2.3.1")
         id("com.github.johnrengelman.shadow").version("7.1.2")
     }
 

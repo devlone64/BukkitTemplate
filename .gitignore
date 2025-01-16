@@ -9,6 +9,4 @@ build/
 gradle.properties
 
 # Other
-run/
-
 COMMIT.txt

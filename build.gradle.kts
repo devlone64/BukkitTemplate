@@ -5,7 +5,6 @@ import org.apache.tools.ant.filters.ReplaceTokens
 plugins {
     id("java")
     id("java-library")
-    id("xyz.jpenilla.run-paper")
     id("com.github.johnrengelman.shadow")
 }
 
@@ -31,11 +30,6 @@ dependencies {
 }
 
 tasks {
-    runServer {
-        minecraftVersion("1.20.4")
-        downloadPlugins.url("https://github.com/devlone64/MCFramework/releases/download/1.0.0/mcframework-bukkit-1.0.0-release.jar")
-    }
-
     shadowJar {
         archiveFileName.set("${project.name}-${project.version}-release.jar")
     }
