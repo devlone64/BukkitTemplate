@@ -31,7 +31,7 @@ dependencies {
 
 tasks {
     shadowJar {
-        archiveFileName.set("template-${project.version}.jar")
+        archiveFileName.set("template-bukkit-${project.version}.jar")
     }
 
     withType<ProcessResources> {
