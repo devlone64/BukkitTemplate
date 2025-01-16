@@ -1,0 +1,6 @@
+name: BukkitTemplate
+main: io.gitlab.lone64.template.TemplatePlugin
+author: lone64
+version: '@version@'
+api-version: 1.20
+depend: [MCFramework]

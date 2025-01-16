@@ -1,0 +1,12 @@
+# Intellij
+.idea/
+out/
+
+# Gradle
+build/
+.gradle/
+
+gradle.properties
+
+# Minecraft
+run/
