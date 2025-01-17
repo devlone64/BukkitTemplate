@@ -22,7 +22,7 @@ repositories {
 
 dependencies {
     compileOnly("org.projectlombok:lombok:1.18.32")
-    compileOnly("io.gitlab.lone64:mcframework-api:1.0.1")
+    compileOnly("io.gitlab.lone64:mcframework-api:1.0.2")
     compileOnly("org.spigotmc:spigot-api:1.20.4-R0.1-SNAPSHOT")
 
     // Annotation Processors
